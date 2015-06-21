@@ -12,9 +12,7 @@ public class LambdaDriver {
         List<String> players = Arrays.asList("Wilshere", "Oxlade-Chamberlain", "Gibbs", "Chambers", "Welbeck", "Ramsey", "Walcott");
 
         //Apply lambda expression to sort players
-        Collections.sort(players, (String player1, String player2) -> {
-            return player1.compareTo(player2);
-        });
+        Collections.sort(players, (player1, player2) -> player1.compareTo(player2));
 
         System.out.println("-----------------");
         System.out.println("Printing Players");
