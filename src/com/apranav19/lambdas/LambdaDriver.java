@@ -12,6 +12,7 @@ public class LambdaDriver {
         List<String> players = Arrays.asList("Wilshere", "Oxlade-Chamberlain", "Gibbs", "Chambers", "Welbeck", "Ramsey", "Walcott");
 
         //Apply lambda expression to sort players
+        // Types do not need to be specified as the compiler maintains knowledge
         Collections.sort(players, (player1, player2) -> player1.compareTo(player2));
 
         System.out.println("-----------------");
