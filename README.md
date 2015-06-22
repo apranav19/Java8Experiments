@@ -7,6 +7,12 @@ The code covers the following Java8 features:
 * Built in Functional Interfaces
   - Predicates
   - Functions
+  - Streams
+    * `map()`
+    * `reduce`
+    * `filter`
+    * `collect`
+
 * Customizing a Functional Interface
 * Lambdas
 * Method References
