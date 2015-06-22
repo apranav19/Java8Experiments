@@ -9,6 +9,8 @@ public class FootballPlayer {
     Integer kitNumber;
     String position;
 
+    public FootballPlayer(){}
+
     public FootballPlayer(String firstName, String lastName, String position, Integer kitNumber){
         this.firstName = firstName;
         this.lastName = lastName;
