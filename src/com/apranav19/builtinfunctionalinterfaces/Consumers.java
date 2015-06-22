@@ -11,7 +11,7 @@ import java.util.function.Consumer;
 public class Consumers {
     public static void main(String [] args){
         // Let's create a consumer that consumes a player and spits out the String format
-        Consumer<FootballPlayer> playerConsumer = (player) -> player.toString();
+        Consumer<FootballPlayer> playerConsumer = (player) -> System.out.println(player.toString());
         playerConsumer.accept(new FootballPlayer("Jack", "Wilshere", "CDM", 10));
     }
 }
